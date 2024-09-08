@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'JetBrains Mono', monospace;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+    height: 100vh;  
+}
+
+.card {
+    background: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 650px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 50px
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.user-info h3 {
+    margin-top: 10px;
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+}
+
+.user-info p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.social-media .socials {
+    border: none;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 26%);
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px 110px 16px 110px;
+    font-weight: 700;
+    transition: background-color 0.2s ease;
+}
+
+.social-media .socials:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
